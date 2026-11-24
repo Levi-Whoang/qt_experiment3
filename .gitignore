@@ -1,0 +1,12 @@
+# Qt Creator & CMake build artifacts
+build/
+.qtcreator/
+*.user
+*.user.*
+CMakeLists.txt.user*
+*.autosave
+
+# Local temporary databases
+*.db
+*.sqlite
+*.sqlite3
