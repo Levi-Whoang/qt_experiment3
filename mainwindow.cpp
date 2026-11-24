@@ -104,7 +104,7 @@ void MainWindow::initUI()
     m_dbSwitchBtn->setCursor(Qt::PointingHandCursor);
 
     // 按实验报告要求：在界面显眼位置展示开发者姓名和学号（请替换为自己的真实信息）
-    m_developerLabel = new QLabel("开发者：请填写姓名    学号：请填写学号", footerBar);
+    m_developerLabel = new QLabel("开发者：李伟煌    学号：2024414290417", footerBar);
     m_developerLabel->setObjectName("developerLabel");
 
     footerLayout->addWidget(m_dbStatusLabel);
